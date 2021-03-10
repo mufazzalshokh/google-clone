@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.home{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.home_right{
+    display: flex;
+    float: right;
+    height: 40px;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    bottom: 10rem;
+}
+.home_right a{
+    text-decoration: none;
+    cursor: pointer;
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0, 0.87);
+}
+.home_right button{
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 8px 10px 8px 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 500;
+    font-family: sans-serif;
+    border: none;
+    outline: none;
+}
+.home_right a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.home_body{
+    position: relative;
+    margin-top: 160px;
+}
+.google_image img{
+    width: 19%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.google_image{
+    height: 90px;
+    
+}
+.search{
+    text-align: center;
+    border: 1px solid #A8A8A8;
+    width: 580px;
+    margin: 0 auto;
+    border-radius: 90px;
+    position: relative;
+    height: 50px;
+}
+.search input{
+    width: 75%;
+    padding: 10px 20px;
+    margin: 0;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    font-size: 16px;
+    color: #505050;
+    position: absolute;
+    bottom: 0.1rem;
+    left: 3rem;
+    
+    height: 25px;
+    font-size: 16px;
+    border: none;
+}
+.search a{
+    color: gray;
+}
+.search:hover{
+    box-shadow: 0 0 10px #D0D0D0;
+    border: 1px solid #D0D0D0;
+}
+.search_button{
+    text-align: center;
+    padding: 20px;
+    margin-top: 45px;
+}
+.search_button button{
+    padding: 10px 15px;
+    margin: 5px;
+    color: #707070;
+    background-color: #E8E8E8;
+    border: 1px solid #E8E8E8;
+}
+.search_button button:hover{
+    color: #404040;
+    background-color: #F0F0F0;
+    border: 1px solid #404040;
+    box-shadow: 0 0 3px #F0F0F0;
+    
+}
+.google_lan {
+    position: relative;
+    top: 5rem;
+}
+.google_lan h2{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: sans-serif;
+    text-align: center;
+}
+.google_lan span{
+    color: blue;
+    cursor: pointer;
+}
+.google_lan span:hover{
+    text-decoration: underline;
+}
+.home_footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer_section{
+    background-color: #DCDCDC;
+    padding: 9px 30px;
+    border: 1px solid #dadce0;
+}
+.footer_section h2{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0, 0.54);
+    position: relative;
+    left: 1rem;
+}
+.footer_section span{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #70757a;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 15px;
+}
+.footer2{
+    text-align: left;
+}
+
+.footer_section span:hover{
+    text-decoration: underline;
+}
+.left{
+    position: relative;
+    left: 1025px;
+    bottom: 21px;
+}
+
+.fa-search {
+    position: relative;
+    right: 16rem;
+    top: 1rem;
+}
+
+.fa-microphone {
+    position: relative;
+    left: 15.5rem;
+    top: 1rem;
+    font-size: 17px;
+
+}
+
+
+
